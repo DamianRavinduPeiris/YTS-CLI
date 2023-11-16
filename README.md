@@ -10,7 +10,6 @@
 
 
 
-![Screenshot (203)](https://github.com/DamianRavinduPeiris/YTS-CLI/assets/115478137/72921f3a-08ae-4f33-a0b4-8397bf7ac34b)
 
 
-
+![Screenshot (203)](https://github.com/DamianRavinduPeiris/YTS-CLI/assets/115478137/6b1b9888-62a4-4f92-8241-1b89d132e291)
