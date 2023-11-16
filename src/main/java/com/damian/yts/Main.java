@@ -14,8 +14,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("|----------------------------------------------------|");
         System.out.println("YTS CLI V.1.0.0 - Crafted  with 🤍 by Damian Peiris !");
-        System.out.println("----------------------------------------------------");
+        System.out.println("|----------------------------------------------------|");
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the movie name : ");
         String name = input.nextLine();
@@ -44,7 +45,6 @@ public class Main {
                 JsonObject jsonFile = new Gson().fromJson(response.body(), JsonObject.class);
                 JsonObject data = jsonFile.getAsJsonObject("data");
                 JsonArray movies = data.getAsJsonArray("movies");
-                System.out.println("----------------------------------------------------");
                 System.out.println(movies.size() + " Results were found! ");
                 System.out.println("----------------------------------------------------");
 
