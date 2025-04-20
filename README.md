@@ -1,4 +1,4 @@
-#  `🍿YTS-CLI`
+#  `YTS-CLI`
 
 
 
